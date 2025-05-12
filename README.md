@@ -26,20 +26,18 @@ A full-stack web platform that connects farmers directly with buyers, eliminatin
 
 ## 📂 Project Structure
 
-farmers-marketplace/
-├── frontend/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
-├── backend/
-│ ├── server.js
-│ ├── routes/
+Farmer-s-MarketPlace/
 │
-│ ├── models/
-│ └── config/
-├── .gitignore
+├── backend/                # Node.js + Express API
+│   ├── models/             # MongoDB models
+│   ├── routes/             # API endpoints
+│   └── ...
+│
+├── frontend/               # HTML/CSS/JS files 
+│
 ├── README.md
-└── package.json
+└── .gitignore
+
 
 
 ---
@@ -48,7 +46,7 @@ farmers-marketplace/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/farmers-marketplace.git
+   git clone https://github.com/2110priyatiwari/Farmer-s-MarketPlace.git
    cd farmers-marketplace
 
 2.Install backend dependencies
@@ -80,7 +78,14 @@ npm install
 📬 Contact
 For suggestions or feedback, feel free to reach out at:
 📧 2110priyatiwari@gmail.com
+
 🔗 https://github.com/2110priyatiwari
+
+🙌 Future Improvements
+🧾 Payment gateway integration
+📱 Fully responsive mobile UI
+🌐 Multi-language support
+📦 Advanced order tracking
 
 💡 Empowering farmers through technology for a better tomorrow.
    
