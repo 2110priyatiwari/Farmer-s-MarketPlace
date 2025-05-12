@@ -1,0 +1,250 @@
+body{
+    margin: 0px;
+    padding : 0px;
+
+}
+#google_translate_element {
+  margin-top: 10px;
+  text-align: right; /* Or center, depending on your design */
+}
+.navbar{
+    height:100px;
+    width:100%;
+    background-color: #609641;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 15px 30px; */
+    
+
+   
+}
+#logo{
+    height:100px;
+    width:70px;
+    
+}
+button{
+    padding: 10px 20px;
+    margin-right: 15px;
+    height: 50px;
+    width:150px;
+    background-color:darkgreen;
+    color:white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    /* background-color: #019875;
+    letter-spacing: 1px;*/
+    transition: all 0.3s ease; 
+    background-color: #019875;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    color: #fffacd;
+    letter-spacing: 1px;
+  }
+  /* Container holding the image and the text */
+  .container{
+    
+     height:25em;
+     width:100%;
+    background-size:contain;
+    background-image: url(login.png);
+    /* filter:blur(2px); */
+    /* backdrop-filter: blur(3px); */
+   }
+   .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.hero{
+    height: 70em;;
+    width:100%;
+    background: linear-gradient(to right, rgb(134, 167, 134) , rgb(187, 201, 99), rgb(128, 249, 128) );
+    display: flex;
+    justify-content: space-around;
+  }
+  
+
+
+.seller{
+    /* height:30rem;
+    width:30rem;
+    background-color:rgb(94, 156, 219);
+     margin-top: 20em;
+     color:white; */
+     
+     /* max-width: 500px; */
+     max-width:20rem;
+     max-height:30rem;
+     margin: 20px auto;
+     margin-top: 5em;
+     background: rgba(255, 255, 255, 0.1);
+     backdrop-filter: blur(6px);
+     border-radius: 15px;
+     padding: 30px;
+     text-align: center;
+     color: #333;
+     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+     font-family: 'Segoe UI', sans-serif;
+     
+}
+.seller h2 {
+  font-size: 3rem;
+  /* color: #2ecc71; */
+  color:#333;
+  margin-bottom: 15px;
+}
+.seller p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.seller-btn {
+  padding: 12px 24px;
+  background-color: #2ecc71;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+}
+
+.seller-btn:hover {
+  background-color: #27ae60;
+  transform: scale(1.05);
+}
+.image1{
+  margin-top: 1em;
+  margin-right: 1rem;
+  border-radius: 5px;
+  /* align-items: baseline; */
+}
+
+.buyer{
+    /* height:30rem;
+    width:30rem;
+    background-color:rgb(93, 131, 168);
+    margin-top:20em; */
+    max-width:20rem;
+     max-height:30rem;
+     margin: 20px auto;
+     margin-top: 20em;
+     background: rgba(255, 255, 255, 0.1);
+     backdrop-filter: blur(6px);
+     border-radius: 15px;
+     padding: 30px;
+     text-align: center;
+     color: #333;
+     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+     font-family: 'Segoe UI', sans-serif;
+}
+.buyer h2 {
+  font-size: 3rem;
+  /* color: #2ecc71; */
+  color:#333;
+  margin-bottom: 15px;
+}
+.buyer p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.buyer-btn {
+  padding: 12px 24px;
+  background-color: #2ecc71;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buyer-btn:hover {
+  background-color: #27ae60;
+  transform: scale(1.05);
+}
+
+.Centered{
+  color:#fffacd;
+  padding-top: 8rem;
+    padding-left: 6rem;
+    padding-bottom: 8rem;
+    padding-right: 6rem;
+    font-weight: bolder;
+    font-size: 5.4rem;
+}
+
+
+
+
+
+
+
+
+
+/* footer section */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #406928;
+    color: #eee;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 220px;
+    margin: 10px 20px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 15px;
+    color: #00b894;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-section {
+      margin: 20px 0;
+    }
+  }
+  

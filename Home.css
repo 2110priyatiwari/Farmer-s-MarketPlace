@@ -1,0 +1,122 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f7ef;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #004d00;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #006600;
+}
+
+/* Hero Section */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 40px;
+  gap: 40px;
+  background-color: #f9fff7;
+  text-align: left;
+  flex-direction: row-reverse; 
+}
+
+.hero img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.hero-content {
+  max-width: 700px;
+}
+.hero-content h1 {
+  font-size: 48px; /* Increase size */
+  margin-bottom: 20px;
+}
+
+
+
+/* Services Section */
+.services {
+  background-color: #e9f5e6;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size:36px;
+  margin-bottom: 40px;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align:center;
+}
+.service-image {
+  width: 100%; /* Ensures image takes up the full width of the card */
+  height: 200px; /* Adjust height according to your preference */
+  object-fit: cover; /* Ensures the image scales properly */
+  border-radius: 10px;
+  margin-bottom: 15px; /* Adds space between image and text */
+}
+
+/* About and Contact Sections */
+.about,
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9fff7;
+}
+.about h2,
+.contact h2 {
+  font-size: 36px; /* You can increase to 40px or more if needed */
+}
+h1, h2, h3 {
+  color: #004d00;
+}

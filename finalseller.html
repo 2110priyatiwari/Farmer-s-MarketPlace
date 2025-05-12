@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Farmers Marketplace</title>
+  <link rel="stylesheet" href="finalseller.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <h1 class="logo">Farmers Marketplace</h1>
+  <button id="openFormBtn">Want to List</button>
+</nav>
+
+<div class="container">
+  <aside class="sidebar">
+    <h2>Categories</h2>
+    <ul id="categoryList"></ul>
+  </aside>
+
+  <main class="main-content">
+    <h1 id="selectedCategoryTitle">All Products</h1>
+    <div class="product-grid" id="productGrid"></div>
+  </main>
+</div>
+
+<!-- Product Listing Form Modal -->
+<div class="modal" id="formModal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeForm">&times;</span>
+    <h2>List Your Product</h2>
+    <form id="listingForm" enctype="multipart/form-data">
+      <label>Category:</label>
+      <select name="category" required>
+        <option value="">Select Category</option>
+        <option value="Vegetables">Vegetables</option>
+        <option value="Fruits">Fruits</option>
+        <option value="Grains & Pulses">Grains & Pulses</option>
+        <option value="Spices">Spices</option>
+      </select>
+
+      <label>Product Name:</label>
+      <input type="text" name="product" required>
+
+      <label>Price:</label>
+      <input type="text" name="price" required>
+
+      <label>Your Name:</label>
+      <input type="text" name="sellerName" required>
+
+      <label>Address:</label>
+      <textarea name="address" required></textarea>
+
+      <label>Contact No.:</label>
+      <input type="text" name="mobile" required>
+
+      <label>Upload Product Photos:</label>
+      <input type="file" name="photos" multiple accept="image/*">
+
+      <button type="submit">Submit</button>
+      <!-- <a href="search.html">
+        <button type="submit">Submit</button>
+      </a> -->
+    </form>
+  </div>
+</div>
+
+<script src="finalseller.js"></script>
+</body>
+</html>
